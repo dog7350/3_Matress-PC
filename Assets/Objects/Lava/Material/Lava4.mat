@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Lava4
+  m_Shader: {fileID: 4800000, guid: a224e6a69bd39f446b23f2d152b677e2, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NoiseTex3D
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LavaTex
+        second:
+          m_Texture: {fileID: 2800000, guid: fcf4c97cf2e1f7e4d868b47329405a8c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NoiseTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 2b71c7f5a6dd0204aa437e452b3e22dd, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _FlameTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 121d7a14c59abaa4d9f902a6f864b4af, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CubeMap
+        second:
+          m_Texture: {fileID: 8900000, guid: 29d77068b43d3764db2d1b73076e440e, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Scale
+        second: .0299999993
+      data:
+        first:
+          name: _Speed
+        second: 1
+      data:
+        first:
+          name: _Offset
+        second: .349999994
+      data:
+        first:
+          name: _LavaTile
+        second: 2.125
+      data:
+        first:
+          name: _LavaBright
+        second: 2
+      data:
+        first:
+          name: _LavaDarkOffset
+        second: .100000001
+      data:
+        first:
+          name: _LavaFlowSpeed
+        second: .00999999978
+      data:
+        first:
+          name: _NoiseTile
+        second: 2
+      data:
+        first:
+          name: _NoiseScale
+        second: .209999993
+      data:
+        first:
+          name: _MorphRate
+        second: .0500000007
+      data:
+        first:
+          name: _BubbleRate
+        second: .119999997
+      data:
+        first:
+          name: _BubbleScale
+        second: .949999988
+      data:
+        first:
+          name: _FlameScale
+        second: .819999993
+      data:
+        first:
+          name: _FlameBias
+        second: -.119999997
+      data:
+        first:
+          name: _RefractionRatio
+        second: 1.01999998
+      data:
+        first:
+          name: _FresnelBias
+        second: .100000001
+      data:
+        first:
+          name: _FresnelPower
+        second: 2
+      data:
+        first:
+          name: _FresnelScale
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
